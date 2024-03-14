@@ -2,8 +2,10 @@
 '''sum of lists of floats
 '''
 
+from typing import List
 
-def sum_list(input_list: list[float] = []) -> float:
+
+def sum_list(input_list: List[float] = []) -> float:
     '''get the sum of lists of floats passed as argument
 
     Args:
